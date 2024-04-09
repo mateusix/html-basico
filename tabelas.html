@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+</head>
+<body>
+   
+  <table style="border: 1px solid black;" id="tabela" > 
+
+  <tr>
+    <th>nome</th>
+    <th>Preço</th>
+    <th>Imagem</th>
+    <th>total</th>
+  </tr>  
+  <tr>
+    <td>banana</td>
+    <td>7,99</td>
+    <td><img style="height: 80px;" src="https://static.vecteezy.com/system/resources/thumbnails/012/909/725/small/bunch-of-bananas-png.png" alt=""></td>
+    <td>12,99</td>
+  </tr>
+  <tr>
+    <td>maça</td>
+    <td>3,00</td>
+    <td><img style=" height: 80px;" src="https://www.maisquitanda.com.br/image/cache/2-frutas/ma%C3%A7a-800x800.jpg" alt=""></td>
+  </tr>
+  <tr class="" name="" id="">
+    <td>pera</td>
+    <td>2,00</td>
+    <td><img style="height: 80px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Color%C3%A9e_de_juillet-1865Bib._SNHF.jpg/200px-Color%C3%A9e_de_juillet-1865Bib._SNHF.jpg" alt=""></td>
+  </tr>
+  </table>
+  <br><br><br><br><br><br><br><br><br><br>
+  <a href="#tabela">voltar para o topo</a>  
+</body>
+</html>
+<style>
+  table {
+  border-collapse: collapse;
+}
+  th {
+  border: 1px solid black;
+  background-color: rgb(225, 117, 117);
+  color: white;
+}   
+  td {
+    border: 1px solid black;
+    height: 10px;
+    vertical-align: bottom;
+  }
+  tr:nth-child(even) {
+background-color: #fff;
+}
+
+   tr:hover:nth-child(1n + 2) {
+   background-color: #580863;
+    color: #fff;
+}
+
+
+</style>

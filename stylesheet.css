@@ -1,0 +1,9 @@
+span {
+  color: red;
+  font-weight: bolder;
+  font-family: cursive;
+}
+.container { 
+  display: flex;
+  justify-content: center;
+}
