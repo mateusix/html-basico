@@ -1,0 +1,19 @@
+ * {
+   font-family: "Lexend Zetta", sans-serif;
+}
+html,body{
+   height: 100%;
+   }
+
+h1{
+   text-align: left;
+  
+}
+a{
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+p {
+   padding-top: 0%;
+}
